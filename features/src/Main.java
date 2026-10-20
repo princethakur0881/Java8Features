@@ -1,13 +1,29 @@
-//TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
-// click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
-void main() {
-    //TIP Press <shortcut actionId="ShowIntentionActions"/> with your caret at the highlighted text
-    // to see how IntelliJ IDEA suggests fixing it.
-    IO.println(String.format("Hello and welcome!"));
+import java.util.Collection;
 
-    for (int i = 1; i <= 5; i++) {
-        //TIP Press <shortcut actionId="Debug"/> to start debugging your code. We have set one <icon src="AllIcons.Debugger.Db_set_breakpoint"/> breakpoint
-        // for you, but you can always add more by pressing <shortcut actionId="ToggleLineBreakpoint"/>.
-        IO.println("i = " + i);
+abstract class Shape{
+    private String color;
+    public void setColor(String color) {
+        this.color = color;
     }
+    public String getColor() {
+        return color;
+    }
+    Shape(String color) {
+        this.color = color;
+    }
+    public abstract double getArea();
 }
+class Square extends Shape{
+    @Override
+    public double getArea() {
+        return side*side ;}
+        double side =5;
+    Square(String color,double side) {
+        super(color);
+    }
+    void main() {
+        System.out.println("Square");
+        Collections.sort
+    }
+    }
+
