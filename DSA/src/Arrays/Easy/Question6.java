@@ -15,20 +15,25 @@ public class Question6 {
         return nums;
     }
         void main () {
-            int arr[] = {1, 1, 2, 2, 3, 3, 4, 4, 5, 5, 6, 6};
-            int n = arr.length;
-            int pos = 0;
-            for (int i = 1; i < n; i++) {
-                if (arr[i] != arr[pos]) {
-                    pos++; // Move to the next slot
-                    arr[pos] = arr[i]; // Write the unique value
-                }
-
-
-            }
-           for(int i=0;i<pos+1;i++ ){
-               System.out.print(arr[i]+" ");
-           }
+//            int arr[] = {1, 1, 2, 2, 3, 3, 4, 4, 5, 5, 6, 6};
+//            int n = arr.length;
+//            int pos = 0;
+//            for (int i = 1; i < n; i++) {
+//                if (arr[i] != arr[pos]) {
+//                    pos++; // Move to the next slot
+//                    arr[pos] = arr[i]; // Write the unique value
+//                }
+//
+//
+//            }
+//           for(int i=0;i<pos+1;i++ ){
+//               System.out.print(arr[i]+" ");
+//           }
+//            System.out.print("Hello, World!");
+//            System.out.println("Welcome to Java.");
+            System.out.println(true);
+            int arr[] ={1,2,3};
+            System.out.println(arr.length);
 
         }
     }
